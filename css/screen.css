@@ -58,14 +58,17 @@ input[type="radio"]{
 	 
 }
 input[type="checkbox"]{
-	transform: translateX(-2em);
-	transform: translateY(-1em);
 	width: 24px;
     height: 24px;
+	vertical-align
+}
+.secret {
+	text-align:center;
+	vertical-align:middle;
 }
 
-input[type=submit] {
-	transform:translateX(23em);
+.button {
+	text-align: center;
 }
 
 .tool {
@@ -77,6 +80,10 @@ input[type=submit] {
 .choice {
 	float:left;
 	padding-left:20px;
+}
+
+.choicesecret {
+	font-size:18px;
 }
 
 input{
@@ -100,4 +107,8 @@ input{
 	input[type="text"] {
 		width: 90%;
 	}
+	.choicesecret {
+	font-size:24px;
+	}
 }
+

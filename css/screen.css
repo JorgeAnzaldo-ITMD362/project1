@@ -38,7 +38,7 @@ form {
 
 label {
 	font-size:24px;
-	display:block;
+	display:grid;
 	font-family: "Trebuchet MS";
 }
 
@@ -51,7 +51,17 @@ input[type="text"] {
 	width: 75%;
 }
 input[type="radio"]{
-	
+	 transform: translateX(-2em);
+	 transform: translateY(-1em);
+	 width: 24px;
+     height: 24px;
+	 
+}
+input[type="checkbox"]{
+	transform: translateX(-2em);
+	transform: translateY(-1em);
+	width: 24px;
+    height: 24px;
 }
 
 .tool {
@@ -62,6 +72,7 @@ input[type="radio"]{
 
 .choice {
 	float:left;
+	padding-left:20px;
 }
 
 input{

@@ -60,7 +60,6 @@ input[type="radio"]{
 input[type="checkbox"]{
 	width: 24px;
     height: 24px;
-	vertical-align
 }
 .secret {
 	text-align:center;
@@ -127,6 +126,6 @@ input{
 	}
 	.choicesecret {
 	font-size:24px;
-}
+	}
 }
 

@@ -27,10 +27,26 @@ h3 {
 }
 
 form {
-	 white-space: pre;
+	white-space: pre;
+	padding: 20px;
+	border-radius:5px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 2px solid #c0c0c0;
+	position:relative;
+	background-color: #99ccff;
 }
 
+label {
+	font-size:24px;
+	font-family: "Trebuchet MS";
+}
 
+input{
+	border: solid #cccccc;
+	border-width: 4px;
+	border-radius: 12px;
+}
 
 @media screen and (min-width: 800px) {
 	h1{

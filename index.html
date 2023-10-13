@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hasjs">
 	<head>
 		<title>Project 1</title>
 		<meta charset="utf-8">
@@ -9,7 +9,8 @@
 		<link rel="stylesheet" media="screen" href="css/normalize.css">
 		<link rel="stylesheet" media="screen" href="css/reset.css">
 		<link rel="stylesheet" media="screen" href="css/screen.css">
-		<script async src="js/site.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/site.js" async></script>
 	</head>
 	<body>
 		<!--Keeping it light on fluff
@@ -19,7 +20,7 @@
 		<h1>The Mailing List</h1>
 		<h2>Are you GOOD ENOUGH for the mailing list?</h2>
 		<h3>Sign up and find out!</h3>
-		<form name="theForm" method="post" action="#null">
+		<form id="theForm" method="post" action="#null">
 		<label for="name" class="text">Enter your name:</label>
 		<input type="text" id="name" name="name" placeholder="First and last please">
 		<label for="address" class="text">Enter your address:</label>

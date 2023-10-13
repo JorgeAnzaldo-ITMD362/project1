@@ -20,33 +20,34 @@
 		<h2>Are you GOOD ENOUGH for the mailing list?</h2>
 		<h3>Sign up and find out!</h3>
 		<form name="theForm" method="post" action="#null">
-		<label for="name">Enter your name:</label>
+		<label for="name" class="text">Enter your name:</label>
 		<input type="text" id="name" name="name" placeholder="First and last please">
-		<label for="address">Enter your address:</label>
+		<label for="address" class="text">Enter your address:</label>
 		<input type="text" id="address" name="address" placeholder="1234 N Fake Avenue">
-		<label for="email">Enter your e-mail:</label>
+		<label for="email" class="text">Enter your e-mail:</label>
 		<input type="text" id="email" name="email" placeholder="fakename@gmail.com">
 		<div>
-			<label>Favorite TOOL Album:</label>
-			<input type="radio" id="undertow" name="tool">
+			<label class="tool">Favorite TOOL Album:</label>
 			<!--MOTHER MARY WON'T YOU WHISPER SOMETHING BUT THE PAST IS DONE?-->
-			<label for="undertow">Undertow</label>
-			<input type="radio" id="aenima" name="tool">
+			<label for="undertow" class="choice">Undertow</label>
+			<input type="radio" id="undertow" name="tool">
 			<!--LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM-->
-			<label for="aenima">AEnima</label>
-			<input type="radio" id="lateralus" name="tool">
+			<label for="aenima" class="choice">AEnima</label>
+			<input type="radio" id="aenima" name="tool">
 			<!--This is the correct answer-->
 			<!--SPIRAL OUT, KEEP GOING SPIRAL OUT, KEEP GOING-->
-			<label for="lateralus">Lateralus</label>
-			<input type="radio" id="days" name="tool">
+			<label for="lateralus" class="choice">Lateralus</label>
+			<input type="radio" id="lateralus" name="tool">
 			<!--Who are you to wave your finger you must have been out your head-->
-			<label for="days">10,000 Days</label>
-			<input type="radio" id="fear" name="tool">
+			<label for="days" class="choice">10,000 Days</label>
+			<input type="radio" id="days" name="tool">
 			<!--I have never listened to this album before-->
-			<label for="fear">Fear Inoculum</label>
+			<label for="fear" class="choice">Fear Inoculum</label>
+			<input type="radio" id="fear" name="tool">
+			
 		</div>
+		<label for="secret" class="choice">By checking this box, you swear that your answers were 100% truthful.</label>
 		<input type="checkbox" id="secret" name="secret">
-		<label for="secret">By checking this box, you swear that your answers were 100% truthful.</label>
 		<input type="submit" id="submit" value="Submit Form">
 		</form>
 		

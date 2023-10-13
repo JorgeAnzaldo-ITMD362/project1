@@ -11,7 +11,6 @@ h1 {
 }
 
 h2 {
-	
 	color:#294474;
 	font-size: 48px;
 	text-align: center;
@@ -31,3 +30,16 @@ form {
 	 white-space: pre;
 }
 
+
+
+@media screen and (min-width: 800px) {
+	h1{
+		font-size:128px;
+	}
+	h2 {
+		font-size:72px;
+	}
+	h3{
+		font-size:64px;
+	}
+}

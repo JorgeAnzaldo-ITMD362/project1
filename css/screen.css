@@ -50,7 +50,6 @@ label {
 
 input[type="text"] {
 	width: 75%;
-	transform:translateX(-2.5em)
 }
 input[type="radio"]{
 	 transform: translateX(-2em);

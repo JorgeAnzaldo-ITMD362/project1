@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
-	<head>
-	  <title>Project 1</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <!--I like to split the normalize and reset up into 2 files
-	  I thought it'd fix a parsing error but now it's just habit-->
-	  <link rel="stylesheet" media="screen" href="css/normalize.css">
-	  <link rel="stylesheet" media="screen" href="css/reset.css">
-	  <link rel="stylesheet" media="screen" href="css/screen.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	  <script src="js/site.js" async></script>
-	</head>
-	<body>
-		<!--Keeping it light on fluff
-		we'll just assume whoever is at this page 
-		already knows what "The Mailing ListTM" already is
-		This can change later though-->
-		<h1>The Mailing List</h1>
-		<h2>Are you GOOD ENOUGH for the mailing list?</h2>
-		<h3>Sign up and find out!</h3>
-		<form id="theForm" method="post" action="#null" autocomplete="on">
-		  <label for="name" class="text">Enter your name:</label>
-		    <input type="text" id="name" name="name" placeholder="First and last please">
-		  <label for="address" class="text">Enter your address:</label>
-		    <input type="text" id="address" name="address" placeholder="1234 N Fake Avenue">
-		  <label for="email" class="text">Enter your e-mail:</label>
-		    <input type="text" id="email" name="email" placeholder="fakename@gmail.com">
-		  <div>
-		    <!--In order to make the buttons level with each other, I increased the white space in between each choice. I'm going to fix this later-->
-		    <label class="tool">Favorite TOOL Album:</label>
-		    <!--MOTHER MARY WON'T YOU WHISPER SOMETHING BUT THE PAST IS DONE?-->
-		    <label for="undertow" class="choice">Undertow      </label>
-		      <input type="radio" id="undertow" name="tool">
-		    <!--LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM-->
-		    <label for="aenima" class="choice">AEnima          </label>
-		      <input type="radio" id="aenima" name="tool">
-		    <!--This is the correct answer-->
-		    <!--SPIRAL OUT, KEEP GOING SPIRAL OUT, KEEP GOING-->
-		    <label for="lateralus" class="choice">Lateralus        </label>
-		      <input type="radio" id="lateralus" name="tool">
-		    <!--Who are you to wave your finger you must have been out your head-->
-		    <label for="days" class="choice">10,000 Days   </label>
-		      <input type="radio" id="days" name="tool">
-		    <!--I have never listened to this album before-->
-		    <label for="fear" class="choice">Fear Inoculum</label>
-		      <input type="radio" id="fear" name="tool">
-			
-		  </div>
-		    <label for="secret" class="choicesecret">By checking this box, you swear that your answers were 100% truthful.</label>
-		    <input type="checkbox" id="secret" name="secret">
-		  <div class="button">
-		    <input type="submit" id="submit" value="Submit Form">
-		  </div>
-		</form>
+  <head>
+    <title>Project 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--I like to split the normalize and reset up into 2 files
+    I thought it'd fix a parsing error but now it's just habit-->
+    <link rel="stylesheet" media="screen" href="css/normalize.css">
+    <link rel="stylesheet" media="screen" href="css/reset.css">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js" async></script>
+  </head>
+  <body>
+   	<!--Keeping it light on fluff
+	we'll just assume whoever is at this page 
+	already knows what "The Mailing ListTM" already is
+	This can change later though-->
+	<h1>The Mailing List</h1>
+	<h2>Are you GOOD ENOUGH for the mailing list?</h2>
+	<h3>Sign up and find out!</h3>
+	<form id="theForm" method="post" action="#null" autocomplete="on">
+	  <label for="name" class="text">Enter your name:</label>
+	    <input type="text" id="name" name="name" placeholder="First and last please">
+	  <label for="address" class="text">Enter your address:</label>
+	    <input type="text" id="address" name="address" placeholder="1234 N Fake Avenue">
+	  <label for="email" class="text">Enter your e-mail:</label>
+	  <input type="text" id="email" name="email" placeholder="fakename@gmail.com">
+	  <div>
+	    <!--In order to make the buttons level with each other, I increased the white space in between each choice. I'm going to fix this later-->
+	    <label class="tool">Favorite TOOL Album:</label>
+	    <!--MOTHER MARY WON'T YOU WHISPER SOMETHING BUT THE PAST IS DONE?-->
+	    <label for="undertow" class="choice">Undertow      </label>
+	      <input type="radio" id="undertow" name="tool">
+	    <!--LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM LEARN TO SWIM-->
+	    <label for="aenima" class="choice">AEnima          </label>
+	      <input type="radio" id="aenima" name="tool">
+	    <!--This is the correct answer-->
+	    <!--SPIRAL OUT, KEEP GOING SPIRAL OUT, KEEP GOING-->
+	    <label for="lateralus" class="choice">Lateralus        </label>
+	      <input type="radio" id="lateralus" name="tool">
+	    <!--Who are you to wave your finger you must have been out your head-->
+	    <label for="days" class="choice">10,000 Days   </label>
+	      <input type="radio" id="days" name="tool">
+	    <!--I have never listened to this album before-->
+	    <label for="fear" class="choice">Fear Inoculum</label>
+	      <input type="radio" id="fear" name="tool">
 		
-	</body>
+	  </div>
+	    <label for="secret" class="choicesecret">By checking this box, you swear that your answers were 100% truthful.</label>
+	    <input type="checkbox" id="secret" name="secret">
+	  <div class="button">
+	    <input type="submit" id="submit" value="Submit Form">
+	  </div>
+	</form>
+	
+  </body>
 </html>

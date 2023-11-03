@@ -3,7 +3,7 @@ body {
 	background-color: #5388E9;
 }
 h1 {
-	color:#A9C4F4;
+	color: #e8f0fc;
 	font-size: 64px;
 	text-align: center; 
 	font-family: "Tahoma";
@@ -50,6 +50,7 @@ label {
 
 input[type="text"] {
 	width: 75%;
+	transform:translateX(-2.5em)
 }
 input[type="radio"]{
 	 transform: translateX(-2em);
@@ -91,7 +92,6 @@ input{
 	border-width: 4px;
 	border-radius: 12px;
 }
-
 
 
 @media screen and (min-width: 800px) {
